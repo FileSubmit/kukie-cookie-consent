@@ -1,3 +1,4 @@
+# Japanese translation for Kukie Cookie Consent plugin.
 # Copyright (C) 2025 Pixadoro Ltd.
 # This file is distributed under the GPLv2 or later.
 msgid ""
@@ -5,343 +6,344 @@ msgstr ""
 "Project-Id-Version: Kukie Cookie Consent 1.4.0\n"
 "Report-Msgid-Bugs-To: support@kukie.io\n"
 "POT-Creation-Date: 2026-03-30 00:00+0000\n"
+"PO-Revision-Date: 2026-03-30 00:00+0000\n"
+"Last-Translator: Kukie.io <support@kukie.io>\n"
+"Language-Team: Japanese <support@kukie.io>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: includes/class-kukie-admin.php:681
 msgid "A scan is already running. Please wait for it to complete."
-msgstr ""
+msgstr "スキャンは既に実行中です。完了するまでお待ちください。"
 
 #: templates/admin-connect.php:23
 msgid "API Key"
-msgstr ""
+msgstr "APIキー"
 
 #: templates/admin-banner-design.php:230
 msgid "Accept All"
-msgstr ""
+msgstr "すべて同意"
 
 #: templates/admin-settings.php:102
 msgid "Add this code to your theme header template."
-msgstr ""
+msgstr "このコードをテーマのヘッダーテンプレートに追加してください。"
 
 #: templates/admin-gcm.php:66
 msgid "Advertisement (ad_storage)"
-msgstr ""
+msgstr "広告 (ad_storage)"
 
 #: templates/admin-settings.php:86
 msgid "After opening tag"
-msgstr ""
+msgstr "開始タグの後"
 
 #: templates/admin-gcm.php:63
 #: templates/admin-gcm.php:68
 #: templates/admin-gcm.php:73
 #: templates/admin-gcm.php:78
 msgid "All"
-msgstr ""
+msgstr "すべて"
 
 #: templates/admin-gcm.php:61
 msgid "Analytics (analytics_storage)"
-msgstr ""
+msgstr "アナリティクス (analytics_storage)"
 
 #: templates/admin-banner-design.php:143
 msgid "Auto (contrast)"
-msgstr ""
+msgstr "自動（コントラスト）"
 
 #: templates/admin-settings.php:125
 msgid "Auto-Translate"
-msgstr ""
+msgstr "自動翻訳"
 
 #: templates/admin-gcm.php:90
 msgid "Auto-block third-party scripts"
-msgstr ""
+msgstr "サードパーティスクリプトの自動ブロック"
 
 #: templates/admin-gcm.php:91
 msgid "Automatically block known tracking scripts until consent is given."
-msgstr ""
+msgstr "同意が得られるまで、既知のトラッキングスクリプトを自動的にブロックします。"
 
 #: templates/admin-settings.php:126
 msgid "Automatically detect visitor language and show the banner in their language."
-msgstr ""
+msgstr "訪問者の言語を自動的に検出し、その言語でバナーを表示します。"
 
 #: templates/admin-banner-design.php:132
 msgid "Background Color (empty = primary)"
-msgstr ""
+msgstr "背景色（空欄 = プライマリ）"
 
 #: includes/class-kukie-admin.php:81
 #: includes/class-kukie-admin.php:82
 #: templates/admin-banner-design.php:11
 msgid "Banner Design"
-msgstr ""
+msgstr "バナーデザイン"
 
 #: templates/admin-settings.php:65
 msgid "Banner Script"
-msgstr ""
+msgstr "バナースクリプト"
 
 #: templates/admin-dashboard.php:28
 msgid "Banner Status"
-msgstr ""
+msgstr "バナーステータス"
 
 #: includes/class-kukie-admin.php:662
 msgid "Banner design saved."
-msgstr ""
+msgstr "バナーデザインを保存しました。"
 
 #: templates/admin-banner-design.php:45
 msgid "Bottom Bar"
-msgstr ""
+msgstr "ボトムバー"
 
 #: templates/admin-banner-design.php:80
 msgid "Bottom Center"
-msgstr ""
+msgstr "下部中央"
 
 #: templates/admin-banner-design.php:76
 #: templates/admin-banner-design.php:103
 msgid "Bottom Left"
-msgstr ""
+msgstr "左下"
 
 #: templates/admin-banner-design.php:84
 #: templates/admin-banner-design.php:104
 msgid "Bottom Right"
-msgstr ""
+msgstr "右下"
 
 #: templates/admin-banner-design.php:127
 msgid "Button Text"
-msgstr ""
+msgstr "ボタンテキスト"
 
 #: templates/admin-gcm.php:54
 msgid "Category"
-msgstr ""
+msgstr "カテゴリ"
 
 #: templates/admin-banner-design.php:72
 msgid "Center"
-msgstr ""
+msgstr "中央"
 
 #: templates/admin-settings.php:108
 msgid "Check if the banner script is detected on your site."
-msgstr ""
+msgstr "バナースクリプトがサイトで検出されるか確認します。"
 
 #: templates/admin-banner-design.php:39
 msgid "Classic centered modal"
-msgstr ""
+msgstr "クラシック中央モーダル"
 
 #: includes/class-kukie-admin.php:118
 #: includes/class-kukie-admin.php:119
 #: includes/class-kukie-plugin.php:105
 msgid "Connect"
-msgstr ""
+msgstr "接続"
 
 #: includes/class-kukie-admin.php:191
 msgid "Connect now &rarr;"
-msgstr ""
+msgstr "今すぐ接続 &rarr;"
 
 #: templates/admin-connect.php:51
 msgid "Connect to Kukie.io"
-msgstr ""
+msgstr "Kukie.ioに接続"
 
 #: templates/admin-connect.php:17
 msgid "Connect your WordPress site to Kukie.io for automatic cookie consent management, GDPR/CCPA compliance, and consent analytics."
-msgstr ""
+msgstr "WordPressサイトをKukie.ioに接続して、Cookie同意の自動管理、GDPR/CCPAコンプライアンス、同意アナリティクスをご利用ください。"
 
 #: templates/admin-settings.php:32
 msgid "Connected"
-msgstr ""
+msgstr "接続済み"
 
 #: includes/class-kukie-admin.php:395
 msgid "Connected successfully!"
-msgstr ""
+msgstr "接続に成功しました！"
 
 #: templates/admin-connect.php:64
 msgid "Connected!"
-msgstr ""
+msgstr "接続済み！"
 
 #: templates/admin-connect.php:54
 msgid "Connecting..."
-msgstr ""
+msgstr "接続中..."
 
 #: templates/admin-settings.php:26
 msgid "Connection"
-msgstr ""
+msgstr "接続"
 
 #: templates/admin-dashboard.php:77
 msgid "Consent Overview"
-msgstr ""
+msgstr "同意の概要"
 
 #: templates/admin-dashboard.php:40
 msgid "Consents Today"
-msgstr ""
+msgstr "本日の同意数"
 
 #: templates/admin-banner-design.php:120
 msgid "Cookie"
-msgstr ""
+msgstr "Cookie"
 
 #: templates/admin-dashboard.php:104
 msgid "Cookie Scan"
-msgstr ""
+msgstr "Cookieスキャン"
 
 #: includes/class-kukie-admin.php:689
 msgid "Cookie scan started!"
-msgstr ""
+msgstr "Cookieスキャンを開始しました！"
 
 #: templates/admin-dashboard.php:128
 msgid "Cookies Found"
-msgstr ""
+msgstr "検出されたCookie"
 
 #: includes/class-kukie-admin.php:371
 msgid "Could not connect. Please check your API key."
-msgstr ""
+msgstr "接続できませんでした。APIキーを確認してください。"
 
 #: includes/class-kukie-admin.php:682
 msgid "Could not start scan."
-msgstr ""
+msgstr "スキャンを開始できませんでした。"
 
 #: templates/admin-banner-design.php:228
 msgid "Customise"
-msgstr ""
+msgstr "カスタマイズ"
 
 #: templates/admin-dashboard.php:141
 msgid "Customise Your Banner"
-msgstr ""
+msgstr "バナーをカスタマイズ"
 
 #: includes/class-kukie-admin.php:72
 #: includes/class-kukie-admin.php:73
 #: includes/class-kukie-plugin.php:104
 msgid "Dashboard"
-msgstr ""
+msgstr "ダッシュボード"
 
 #: templates/admin-gcm.php:46
 msgid "Default Consent State"
-msgstr ""
+msgstr "デフォルトの同意状態"
 
 #: templates/admin-settings.php:136
 msgid "Default Language"
-msgstr ""
+msgstr "デフォルト言語"
 
 #: templates/admin-gcm.php:55
 msgid "Default State"
-msgstr ""
+msgstr "デフォルトの状態"
 
 #: templates/admin-gcm.php:62
 #: templates/admin-gcm.php:67
 #: templates/admin-gcm.php:72
 msgid "Denied"
-msgstr ""
+msgstr "拒否"
 
 #: templates/admin-dashboard.php:142
 msgid "Design your cookie banner, manage cookie categories, and configure consent rules in the Kukie.io dashboard."
-msgstr ""
+msgstr "Kukie.ioダッシュボードでCookieバナーのデザイン、Cookieカテゴリの管理、同意ルールの設定を行えます。"
 
 #: templates/admin-settings.php:55
 msgid "Disconnect from Kukie.io"
-msgstr ""
+msgstr "Kukie.ioから切断"
 
 #: includes/class-kukie-admin.php:420
 msgid "Disconnected from Kukie.io."
-msgstr ""
+msgstr "Kukie.ioから切断しました。"
 
 #: includes/class-kukie-admin.php:303
 msgid "Dismiss"
-msgstr ""
+msgstr "閉じる"
 
 #: templates/admin-connect.php:75
 #: templates/admin-settings.php:44
 msgid "Domain"
-msgstr ""
+msgstr "ドメイン"
 
 #: templates/admin-connect.php:88
 msgid "Don't have an account? %s"
-msgstr ""
+msgstr "アカウントをお持ちでないですか？ %s"
 
 #: templates/admin-settings.php:100
 msgid "Embed Code"
-msgstr ""
+msgstr "埋め込みコード"
 
 #: templates/admin-settings.php:93
 msgid "Embed code"
-msgstr ""
+msgstr "埋め込みコード"
 
 #: templates/admin-gcm.php:35
 msgid "Enable GCM v2"
-msgstr ""
+msgstr "GCM v2を有効にする"
 
 #: templates/admin-gcm.php:30
 msgid "Enable Google Consent Mode v2 to integrate consent signals with Google services. Required for EU user consent compliance with Google Ads and Analytics."
-msgstr ""
+msgstr "Google Consent Mode v2を有効にして、同意シグナルをGoogleサービスと統合します。Google広告およびアナリティクスのEUユーザー同意コンプライアンスに必要です。"
 
 #: templates/admin-uet.php:34
 msgid "Enable Microsoft UET consent signals"
-msgstr ""
+msgstr "Microsoft UET同意シグナルを有効にする"
 
 #: templates/admin-settings.php:144
 msgid "Enabled Languages"
-msgstr ""
+msgstr "有効な言語"
 
 #: templates/admin-connect.php:41
 msgid "Find your API key in %s under your site settings."
-msgstr ""
+msgstr "サイト設定の%sでAPIキーを確認できます。"
 
 #: templates/admin-banner-design.php:123
 msgid "Fingerprint"
-msgstr ""
+msgstr "指紋"
 
 #: templates/admin-banner-design.php:59
 msgid "Floating"
-msgstr ""
+msgstr "フローティング"
 
 #: templates/admin-gcm.php:11
 #: templates/admin-uet.php:11
 msgid "Full settings"
-msgstr ""
+msgstr "詳細設定"
 
 #: templates/admin-banner-design.php:46
 msgid "Full-width bar at bottom"
-msgstr ""
+msgstr "下部の全幅バー"
 
 #: templates/admin-banner-design.php:53
 msgid "Full-width bar at top"
-msgstr ""
+msgstr "上部の全幅バー"
 
 #: templates/admin-gcm.php:71
 msgid "Functional (functionality_storage)"
-msgstr ""
+msgstr "機能 (functionality_storage)"
 
 #: templates/admin-connect.php:80
 msgid "Go to Dashboard"
-msgstr ""
+msgstr "ダッシュボードへ移動"
 
 #: includes/class-kukie-admin.php:558
 msgid "Google Consent Mode settings saved."
-msgstr ""
+msgstr "Google Consent Modeの設定を保存しました。"
 
 #: includes/class-kukie-admin.php:90
 #: includes/class-kukie-admin.php:91
 #: templates/admin-gcm.php:9
 #: templates/admin-gcm.php:28
 msgid "Google Consent Mode v2"
-msgstr ""
+msgstr "Google Consent Mode v2"
 
 #: templates/admin-gcm.php:77
 msgid "Granted"
-msgstr ""
+msgstr "許可"
 
 #: templates/admin-banner-design.php:118
 msgid "Icon"
-msgstr ""
+msgstr "アイコン"
 
 #: templates/admin-banner-design.php:139
 msgid "Icon Color"
-msgstr ""
+msgstr "アイコンの色"
 
 #: templates/admin-banner-design.php:112
 msgid "Icon Only"
-msgstr ""
+msgstr "アイコンのみ"
 
 #: includes/class-kukie-admin.php:364
 msgid "Invalid API key format. The key should be 64 characters."
-msgstr ""
+msgstr "APIキーの形式が無効です。キーは64文字である必要があります。"
 
 #: includes/class-kukie-admin.php:48
 #: includes/class-kukie-admin.php:49
@@ -350,75 +352,75 @@ msgstr ""
 #: templates/admin-connect.php:8
 #: templates/admin-connect.php:13
 msgid "Kukie.io"
-msgstr ""
+msgstr "Kukie.io"
 
 #: includes/class-kukie-admin.php:296
 msgid "Kukie.io - WP Rocket detected:"
-msgstr ""
+msgstr "Kukie.io - WP Rocketが検出されました："
 
 #: templates/admin-dashboard.php:11
 msgid "Kukie.io Dashboard"
-msgstr ""
+msgstr "Kukie.io ダッシュボード"
 
 #: templates/admin-settings.php:11
 msgid "Kukie.io Settings"
-msgstr ""
+msgstr "Kukie.io 設定"
 
 #: includes/class-kukie-admin.php:189
 msgid "Kukie.io cookie consent is not connected."
-msgstr ""
+msgstr "Kukie.io Cookie同意が接続されていません。"
 
 #: templates/admin-settings.php:121
 msgid "Language"
-msgstr ""
+msgstr "言語"
 
 #: templates/admin-dashboard.php:124
 msgid "Last Scan"
-msgstr ""
+msgstr "最後のスキャン"
 
 #: templates/admin-banner-design.php:33
 msgid "Layout"
-msgstr ""
+msgstr "レイアウト"
 
 #: includes/class-kukie-admin.php:302
 msgid "Learn more"
-msgstr ""
+msgstr "詳しく見る"
 
 #: templates/admin-banner-design.php:183
 msgid "Live Preview"
-msgstr ""
+msgstr "ライブプレビュー"
 
 #: templates/admin-banner-design.php:24
 msgid "Loading design settings..."
-msgstr ""
+msgstr "デザイン設定を読み込み中..."
 
 #: templates/admin-gcm.php:22
 #: templates/admin-settings.php:20
 #: templates/admin-uet.php:22
 msgid "Loading settings..."
-msgstr ""
+msgstr "設定を読み込み中..."
 
 #: templates/admin-settings.php:92
 msgid "Manual"
-msgstr ""
+msgstr "手動"
 
 #: includes/class-kukie-admin.php:99
 #: includes/class-kukie-admin.php:100
 #: templates/admin-uet.php:9
 msgid "Microsoft UET"
-msgstr ""
+msgstr "Microsoft UET"
 
 #: templates/admin-uet.php:27
 msgid "Microsoft UET Consent Signals"
-msgstr ""
+msgstr "Microsoft UET同意シグナル"
 
 #: includes/class-kukie-admin.php:588
 msgid "Microsoft UET settings saved."
-msgstr ""
+msgstr "Microsoft UETの設定を保存しました。"
 
 #: templates/admin-gcm.php:76
 msgid "Necessary (security_storage)"
-msgstr ""
+msgstr "必須 (security_storage)"
 
 #: includes/class-kukie-admin.php:439
 #: includes/class-kukie-admin.php:468
@@ -429,195 +431,195 @@ msgstr ""
 #: includes/class-kukie-admin.php:674
 #: includes/class-kukie-admin.php:701
 msgid "Not connected."
-msgstr ""
+msgstr "接続されていません。"
 
 #: templates/admin-banner-design.php:153
 msgid "Offset X (px)"
-msgstr ""
+msgstr "オフセット X (px)"
 
 #: templates/admin-banner-design.php:157
 msgid "Offset Y (px)"
-msgstr ""
+msgstr "オフセット Y (px)"
 
 #: templates/admin-dashboard.php:144
 msgid "Open Kukie.io Dashboard"
-msgstr ""
+msgstr "Kukie.ioダッシュボードを開く"
 
 #: includes/class-kukie-admin.php:300
 msgid "Open WP Rocket Settings"
-msgstr ""
+msgstr "WP Rocket設定を開く"
 
 #: templates/admin-dashboard.php:13
 msgid "Open full dashboard"
-msgstr ""
+msgstr "フルダッシュボードを開く"
 
 #: templates/admin-connect.php:67
 #: templates/admin-settings.php:36
 msgid "Organisation"
-msgstr ""
+msgstr "組織"
 
 #: templates/admin-dashboard.php:132
 msgid "Pages Scanned"
-msgstr ""
+msgstr "スキャン済みページ数"
 
 #: templates/admin-uet.php:35
 msgid "Pass consent signals to Microsoft Advertising Universal Event Tracking."
-msgstr ""
+msgstr "同意シグナルをMicrosoft Advertising Universal Event Trackingに渡します。"
 
 #: templates/admin-uet.php:29
 msgid "Pass consent signals to Microsoft Advertising Universal Event Tracking. When enabled, consent state is forwarded to Microsoft UET tags for GDPR compliance."
-msgstr ""
+msgstr "同意シグナルをMicrosoft Advertising Universal Event Trackingに渡します。有効にすると、GDPRコンプライアンスのために同意状態がMicrosoft UETタグに転送されます。"
 
 #: templates/admin-connect.php:29
 msgid "Paste your 64-character API key"
-msgstr ""
+msgstr "64文字のAPIキーを貼り付けてください"
 
 #: templates/admin-banner-design.php:113
 msgid "Pill (Icon + Text)"
-msgstr ""
+msgstr "ピル（アイコン + テキスト）"
 
 #: templates/admin-connect.php:71
 #: templates/admin-dashboard.php:52
 #: templates/admin-settings.php:40
 msgid "Plan"
-msgstr ""
+msgstr "プラン"
 
 #: templates/admin-banner-design.php:38
 msgid "Popup (Center)"
-msgstr ""
+msgstr "ポップアップ（中央）"
 
 #: templates/admin-banner-design.php:68
 #: templates/admin-banner-design.php:101
 msgid "Position"
-msgstr ""
+msgstr "位置"
 
 #: templates/admin-settings.php:79
 msgid "Recommended"
-msgstr ""
+msgstr "推奨"
 
 #: templates/admin-gcm.php:56
 msgid "Region"
-msgstr ""
+msgstr "地域"
 
 #: templates/admin-banner-design.php:229
 msgid "Reject All"
-msgstr ""
+msgstr "すべて拒否"
 
 #: templates/admin-banner-design.php:92
 msgid "Revisit Button"
-msgstr ""
+msgstr "再表示ボタン"
 
 #: templates/admin-dashboard.php:111
 msgid "Run New Scan"
-msgstr ""
+msgstr "新しいスキャンを実行"
 
 #: templates/admin-banner-design.php:13
 msgid "Save Changes"
-msgstr ""
+msgstr "変更を保存"
 
 #: templates/admin-gcm.php:103
 #: templates/admin-settings.php:170
 #: templates/admin-uet.php:47
 msgid "Save Settings"
-msgstr ""
+msgstr "設定を保存"
 
 #: templates/admin-banner-design.php:16
 #: templates/admin-gcm.php:106
 #: templates/admin-settings.php:173
 #: templates/admin-uet.php:50
 msgid "Saving..."
-msgstr ""
+msgstr "保存中..."
 
 #: templates/admin-gcm.php:86
 msgid "Script Blocking"
-msgstr ""
+msgstr "スクリプトブロック"
 
 #: templates/admin-settings.php:73
 msgid "Script Position"
-msgstr ""
+msgstr "スクリプトの位置"
 
 #: templates/admin-settings.php:145
 msgid "Select which languages are available for your cookie banner."
-msgstr ""
+msgstr "Cookieバナーで使用可能な言語を選択してください。"
 
 #: includes/class-kukie-admin.php:108
 #: includes/class-kukie-admin.php:109
 #: templates/admin-banner-design.php:122
 msgid "Settings"
-msgstr ""
+msgstr "設定"
 
 #: includes/class-kukie-admin.php:527
 msgid "Settings saved."
-msgstr ""
+msgstr "設定を保存しました。"
 
 #: templates/admin-banner-design.php:121
 msgid "Shield"
-msgstr ""
+msgstr "シールド"
 
 #: templates/admin-connect.php:33
 msgid "Show/hide API key"
-msgstr ""
+msgstr "APIキーの表示/非表示"
 
 #: templates/admin-connect.php:89
 msgid "Sign up free at kukie.io"
-msgstr ""
+msgstr "kukie.ioで無料登録"
 
 #: templates/admin-settings.php:48
 msgid "Site Key"
-msgstr ""
+msgstr "サイトキー"
 
 #: templates/admin-banner-design.php:60
 msgid "Small floating card"
-msgstr ""
+msgstr "小さなフローティングカード"
 
 #: templates/admin-dashboard.php:120
 #: templates/admin-settings.php:29
 msgid "Status"
-msgstr ""
+msgstr "ステータス"
 
 #: templates/admin-banner-design.php:110
 msgid "Style"
-msgstr ""
+msgstr "スタイル"
 
 #: templates/admin-banner-design.php:114
 msgid "Tab (Text)"
-msgstr ""
+msgstr "タブ（テキスト）"
 
 #: templates/admin-settings.php:140
 msgid "The fallback language when auto-translate cannot determine the visitor language."
-msgstr ""
+msgstr "自動翻訳で訪問者の言語を判別できない場合のフォールバック言語です。"
 
 #: templates/admin-gcm.php:48
 msgid "These are the default consent states before a user interacts with the banner. Managed through region rules in the Kukie.io dashboard."
-msgstr ""
+msgstr "ユーザーがバナーを操作する前のデフォルトの同意状態です。Kukie.ioダッシュボードの地域ルールで管理されます。"
 
 #: templates/admin-dashboard.php:95
 msgid "This Month"
-msgstr ""
+msgstr "今月"
 
 #: templates/admin-dashboard.php:91
 msgid "This Week"
-msgstr ""
+msgstr "今週"
 
 #: templates/admin-settings.php:57
 msgid "This will remove the cookie consent banner from your site."
-msgstr ""
+msgstr "サイトからCookie同意バナーが削除されます。"
 
 #: templates/admin-dashboard.php:85
 msgid "Today"
-msgstr ""
+msgstr "今日"
 
 #: templates/admin-banner-design.php:52
 msgid "Top Bar"
-msgstr ""
+msgstr "トップバー"
 
 #: templates/admin-banner-design.php:105
 msgid "Top Left"
-msgstr ""
+msgstr "左上"
 
 #: templates/admin-banner-design.php:106
 msgid "Top Right"
-msgstr ""
+msgstr "右上"
 
 #: includes/class-kukie-admin.php:356
 #: includes/class-kukie-admin.php:407
@@ -630,57 +632,57 @@ msgstr ""
 #: includes/class-kukie-admin.php:669
 #: includes/class-kukie-admin.php:696
 msgid "Unauthorised."
-msgstr ""
+msgstr "権限がありません。"
 
 #: templates/admin-banner-design.php:238
 msgid "Updates instantly as you change settings"
-msgstr ""
+msgstr "設定を変更すると即座に更新されます"
 
 #: templates/admin-dashboard.php:64
 #: templates/admin-settings.php:107
 msgid "Verification"
-msgstr ""
+msgstr "検証"
 
 #: includes/class-kukie-admin.php:707
 msgid "Verification failed."
-msgstr ""
+msgstr "検証に失敗しました。"
 
 #: templates/admin-settings.php:111
 msgid "Verify"
-msgstr ""
+msgstr "検証"
 
 #: templates/admin-dashboard.php:79
 msgid "View analytics"
-msgstr ""
+msgstr "アナリティクスを表示"
 
 #: templates/admin-dashboard.php:107
 msgid "View cookies"
-msgstr ""
+msgstr "Cookieを表示"
 
 #: templates/admin-banner-design.php:171
 msgid "Want more customisation options? Edit colours, texts and advanced settings in %s."
-msgstr ""
+msgstr "より多くのカスタマイズオプションが必要ですか？ %sで色、テキスト、詳細設定を編集できます。"
 
 #: templates/admin-settings.php:157
 msgid "Want to customise banner texts and translations? Edit them in %s."
-msgstr ""
+msgstr "バナーのテキストと翻訳をカスタマイズしたいですか？ %sで編集できます。"
 
 #: templates/admin-banner-design.php:226
 msgid "We use cookies to enhance your browsing experience, serve personalised content, and analyse our traffic."
-msgstr ""
+msgstr "当サイトでは、ブラウジング体験の向上、パーソナライズされたコンテンツの提供、トラフィックの分析のためにCookieを使用しています。"
 
 #: templates/admin-banner-design.php:224
 msgid "We value your privacy"
-msgstr ""
+msgstr "プライバシーを大切にしています"
 
 #: includes/class-kukie-admin.php:297
 msgid "Your cookie banner may not load correctly. Add cdn.kukie.io to the exclusion list in these WP Rocket settings:"
-msgstr ""
+msgstr "Cookieバナーが正しく読み込まれない可能性があります。以下のWP Rocket設定の除外リストにcdn.kukie.ioを追加してください："
 
 #: templates/admin-banner-design.php:172
 msgid "your Kukie.io dashboard"
-msgstr ""
+msgstr "Kukie.ioダッシュボード"
 
 #: templates/admin-settings.php:158
 msgid "your banner settings on Kukie.io"
-msgstr ""
+msgstr "Kukie.ioのバナー設定"

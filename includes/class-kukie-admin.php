@@ -353,7 +353,7 @@ class Kukie_Admin {
 		check_ajax_referer( 'kukie_admin', 'nonce' );
 
 		if ( ! current_user_can( 'manage_options' ) ) {
-			wp_send_json_error( [ 'message' => 'Unauthorised.' ], 403 );
+			wp_send_json_error( [ 'message' => __( 'Unauthorised.', 'kukie-cookie-consent' ) ], 403 );
 		}
 
 		$api_key = isset( $_POST['api_key'] )
@@ -404,7 +404,7 @@ class Kukie_Admin {
 		check_ajax_referer( 'kukie_admin', 'nonce' );
 
 		if ( ! current_user_can( 'manage_options' ) ) {
-			wp_send_json_error( [ 'message' => 'Unauthorised.' ], 403 );
+			wp_send_json_error( [ 'message' => __( 'Unauthorised.', 'kukie-cookie-consent' ) ], 403 );
 		}
 
 		$client = $this->plugin->get_api_client();
@@ -426,7 +426,7 @@ class Kukie_Admin {
 		check_ajax_referer( 'kukie_admin', 'nonce' );
 
 		if ( ! current_user_can( 'manage_options' ) ) {
-			wp_send_json_error( [ 'message' => 'Unauthorised.' ], 403 );
+			wp_send_json_error( [ 'message' => __( 'Unauthorised.', 'kukie-cookie-consent' ) ], 403 );
 		}
 
 		$cached = get_transient( 'kukie_dashboard_data' );
@@ -436,7 +436,7 @@ class Kukie_Admin {
 
 		$client = $this->plugin->get_api_client();
 		if ( ! $client ) {
-			wp_send_json_error( [ 'message' => 'Not connected.' ] );
+			wp_send_json_error( [ 'message' => __( 'Not connected.', 'kukie-cookie-consent' ) ] );
 		}
 
 		$response = $client->get( '/status' );
@@ -454,7 +454,7 @@ class Kukie_Admin {
 		check_ajax_referer( 'kukie_admin', 'nonce' );
 
 		if ( ! current_user_can( 'manage_options' ) ) {
-			wp_send_json_error( [ 'message' => 'Unauthorised.' ], 403 );
+			wp_send_json_error( [ 'message' => __( 'Unauthorised.', 'kukie-cookie-consent' ) ], 403 );
 		}
 
 		$cached = get_transient( 'kukie_settings_cache' );
@@ -465,7 +465,7 @@ class Kukie_Admin {
 
 		$client = $this->plugin->get_api_client();
 		if ( ! $client ) {
-			wp_send_json_error( [ 'message' => 'Not connected.' ] );
+			wp_send_json_error( [ 'message' => __( 'Not connected.', 'kukie-cookie-consent' ) ] );
 		}
 
 		$response = $client->get( '/settings' );
@@ -486,7 +486,7 @@ class Kukie_Admin {
 		check_ajax_referer( 'kukie_admin', 'nonce' );
 
 		if ( ! current_user_can( 'manage_options' ) ) {
-			wp_send_json_error( [ 'message' => 'Unauthorised.' ], 403 );
+			wp_send_json_error( [ 'message' => __( 'Unauthorised.', 'kukie-cookie-consent' ) ], 403 );
 		}
 
 		// Local-only: script_position
@@ -510,7 +510,7 @@ class Kukie_Admin {
 
 		$client = $this->plugin->get_api_client();
 		if ( ! $client ) {
-			wp_send_json_error( [ 'message' => 'Not connected.' ] );
+			wp_send_json_error( [ 'message' => __( 'Not connected.', 'kukie-cookie-consent' ) ] );
 		}
 
 		$response = $client->put( '/settings', $api_data );
@@ -531,7 +531,7 @@ class Kukie_Admin {
 		check_ajax_referer( 'kukie_admin', 'nonce' );
 
 		if ( ! current_user_can( 'manage_options' ) ) {
-			wp_send_json_error( [ 'message' => 'Unauthorised.' ], 403 );
+			wp_send_json_error( [ 'message' => __( 'Unauthorised.', 'kukie-cookie-consent' ) ], 403 );
 		}
 
 		$api_data = [
@@ -541,7 +541,7 @@ class Kukie_Admin {
 
 		$client = $this->plugin->get_api_client();
 		if ( ! $client ) {
-			wp_send_json_error( [ 'message' => 'Not connected.' ] );
+			wp_send_json_error( [ 'message' => __( 'Not connected.', 'kukie-cookie-consent' ) ] );
 		}
 
 		$response = $client->put( '/settings', $api_data );
@@ -562,7 +562,7 @@ class Kukie_Admin {
 		check_ajax_referer( 'kukie_admin', 'nonce' );
 
 		if ( ! current_user_can( 'manage_options' ) ) {
-			wp_send_json_error( [ 'message' => 'Unauthorised.' ], 403 );
+			wp_send_json_error( [ 'message' => __( 'Unauthorised.', 'kukie-cookie-consent' ) ], 403 );
 		}
 
 		$api_data = [
@@ -571,7 +571,7 @@ class Kukie_Admin {
 
 		$client = $this->plugin->get_api_client();
 		if ( ! $client ) {
-			wp_send_json_error( [ 'message' => 'Not connected.' ] );
+			wp_send_json_error( [ 'message' => __( 'Not connected.', 'kukie-cookie-consent' ) ] );
 		}
 
 		$response = $client->put( '/settings', $api_data );
@@ -592,7 +592,7 @@ class Kukie_Admin {
 		check_ajax_referer( 'kukie_admin', 'nonce' );
 
 		if ( ! current_user_can( 'manage_options' ) ) {
-			wp_send_json_error( [ 'message' => 'Unauthorised.' ], 403 );
+			wp_send_json_error( [ 'message' => __( 'Unauthorised.', 'kukie-cookie-consent' ) ], 403 );
 		}
 
 		$layout = sanitize_text_field( wp_unslash( $_POST['layout'] ?? 'popup' ) );
@@ -645,7 +645,7 @@ class Kukie_Admin {
 
 		$client = $this->plugin->get_api_client();
 		if ( ! $client ) {
-			wp_send_json_error( [ 'message' => 'Not connected.' ] );
+			wp_send_json_error( [ 'message' => __( 'Not connected.', 'kukie-cookie-consent' ) ] );
 		}
 
 		$response = $client->put( '/settings', $api_data );
@@ -666,12 +666,12 @@ class Kukie_Admin {
 		check_ajax_referer( 'kukie_admin', 'nonce' );
 
 		if ( ! current_user_can( 'manage_options' ) ) {
-			wp_send_json_error( [ 'message' => 'Unauthorised.' ], 403 );
+			wp_send_json_error( [ 'message' => __( 'Unauthorised.', 'kukie-cookie-consent' ) ], 403 );
 		}
 
 		$client = $this->plugin->get_api_client();
 		if ( ! $client ) {
-			wp_send_json_error( [ 'message' => 'Not connected.' ] );
+			wp_send_json_error( [ 'message' => __( 'Not connected.', 'kukie-cookie-consent' ) ] );
 		}
 
 		$response = $client->post( '/scan' );
@@ -693,12 +693,12 @@ class Kukie_Admin {
 		check_ajax_referer( 'kukie_admin', 'nonce' );
 
 		if ( ! current_user_can( 'manage_options' ) ) {
-			wp_send_json_error( [ 'message' => 'Unauthorised.' ], 403 );
+			wp_send_json_error( [ 'message' => __( 'Unauthorised.', 'kukie-cookie-consent' ) ], 403 );
 		}
 
 		$client = $this->plugin->get_api_client();
 		if ( ! $client ) {
-			wp_send_json_error( [ 'message' => 'Not connected.' ] );
+			wp_send_json_error( [ 'message' => __( 'Not connected.', 'kukie-cookie-consent' ) ] );
 		}
 
 		$response = $client->post( '/verify' );

@@ -5,343 +5,345 @@ msgstr ""
 "Project-Id-Version: Kukie Cookie Consent 1.4.0\n"
 "Report-Msgid-Bugs-To: support@kukie.io\n"
 "POT-Creation-Date: 2026-03-30 00:00+0000\n"
+"PO-Revision-Date: 2026-03-30 00:00+0000\n"
+"Last-Translator: Kukie.io <support@kukie.io>\n"
+"Language-Team: Romanian <support@kukie.io>\n"
+"Language: ro_RO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
 
 
 #: includes/class-kukie-admin.php:681
 msgid "A scan is already running. Please wait for it to complete."
-msgstr ""
+msgstr "O scanare este deja in curs. Vă rugăm să așteptați finalizarea acesteia."
 
 #: templates/admin-connect.php:23
 msgid "API Key"
-msgstr ""
+msgstr "Cheie API"
 
 #: templates/admin-banner-design.php:230
 msgid "Accept All"
-msgstr ""
+msgstr "Acceptați toate"
 
 #: templates/admin-settings.php:102
 msgid "Add this code to your theme header template."
-msgstr ""
+msgstr "Adăugați acest cod în șablonul antetului temei dumneavoastră."
 
 #: templates/admin-gcm.php:66
 msgid "Advertisement (ad_storage)"
-msgstr ""
+msgstr "Publicitate (ad_storage)"
 
 #: templates/admin-settings.php:86
 msgid "After opening tag"
-msgstr ""
+msgstr "După eticheta de deschidere"
 
 #: templates/admin-gcm.php:63
 #: templates/admin-gcm.php:68
 #: templates/admin-gcm.php:73
 #: templates/admin-gcm.php:78
 msgid "All"
-msgstr ""
+msgstr "Toate"
 
 #: templates/admin-gcm.php:61
 msgid "Analytics (analytics_storage)"
-msgstr ""
+msgstr "Analiză (analytics_storage)"
 
 #: templates/admin-banner-design.php:143
 msgid "Auto (contrast)"
-msgstr ""
+msgstr "Automat (contrast)"
 
 #: templates/admin-settings.php:125
 msgid "Auto-Translate"
-msgstr ""
+msgstr "Traducere automată"
 
 #: templates/admin-gcm.php:90
 msgid "Auto-block third-party scripts"
-msgstr ""
+msgstr "Blocare automată a scripturilor terțe"
 
 #: templates/admin-gcm.php:91
 msgid "Automatically block known tracking scripts until consent is given."
-msgstr ""
+msgstr "Blocați automat scripturile de urmărire cunoscute până la acordarea consimțământului."
 
 #: templates/admin-settings.php:126
 msgid "Automatically detect visitor language and show the banner in their language."
-msgstr ""
+msgstr "Detectați automat limba vizitatorului și afișați bannerul în limba acestuia."
 
 #: templates/admin-banner-design.php:132
 msgid "Background Color (empty = primary)"
-msgstr ""
+msgstr "Culoare de fundal (gol = culoare principală)"
 
 #: includes/class-kukie-admin.php:81
 #: includes/class-kukie-admin.php:82
 #: templates/admin-banner-design.php:11
 msgid "Banner Design"
-msgstr ""
+msgstr "Design banner"
 
 #: templates/admin-settings.php:65
 msgid "Banner Script"
-msgstr ""
+msgstr "Script banner"
 
 #: templates/admin-dashboard.php:28
 msgid "Banner Status"
-msgstr ""
+msgstr "Stare banner"
 
 #: includes/class-kukie-admin.php:662
 msgid "Banner design saved."
-msgstr ""
+msgstr "Designul bannerului a fost salvat."
 
 #: templates/admin-banner-design.php:45
 msgid "Bottom Bar"
-msgstr ""
+msgstr "Bară de jos"
 
 #: templates/admin-banner-design.php:80
 msgid "Bottom Center"
-msgstr ""
+msgstr "Jos centru"
 
 #: templates/admin-banner-design.php:76
 #: templates/admin-banner-design.php:103
 msgid "Bottom Left"
-msgstr ""
+msgstr "Jos stânga"
 
 #: templates/admin-banner-design.php:84
 #: templates/admin-banner-design.php:104
 msgid "Bottom Right"
-msgstr ""
+msgstr "Jos dreapta"
 
 #: templates/admin-banner-design.php:127
 msgid "Button Text"
-msgstr ""
+msgstr "Text buton"
 
 #: templates/admin-gcm.php:54
 msgid "Category"
-msgstr ""
+msgstr "Categorie"
 
 #: templates/admin-banner-design.php:72
 msgid "Center"
-msgstr ""
+msgstr "Centru"
 
 #: templates/admin-settings.php:108
 msgid "Check if the banner script is detected on your site."
-msgstr ""
+msgstr "Verificați dacă scriptul bannerului este detectat pe site-ul dumneavoastră."
 
 #: templates/admin-banner-design.php:39
 msgid "Classic centered modal"
-msgstr ""
+msgstr "Fereastră modală clasică centrată"
 
 #: includes/class-kukie-admin.php:118
 #: includes/class-kukie-admin.php:119
 #: includes/class-kukie-plugin.php:105
 msgid "Connect"
-msgstr ""
+msgstr "Conectare"
 
 #: includes/class-kukie-admin.php:191
 msgid "Connect now &rarr;"
-msgstr ""
+msgstr "Conectați-vă acum &rarr;"
 
 #: templates/admin-connect.php:51
 msgid "Connect to Kukie.io"
-msgstr ""
+msgstr "Conectare la Kukie.io"
 
 #: templates/admin-connect.php:17
 msgid "Connect your WordPress site to Kukie.io for automatic cookie consent management, GDPR/CCPA compliance, and consent analytics."
-msgstr ""
+msgstr "Conectați site-ul dumneavoastră WordPress la Kukie.io pentru gestionarea automată a consimțământului privind cookie-urile, conformitatea GDPR/CCPA și analitica consimțământului."
 
 #: templates/admin-settings.php:32
 msgid "Connected"
-msgstr ""
+msgstr "Conectat"
 
 #: includes/class-kukie-admin.php:395
 msgid "Connected successfully!"
-msgstr ""
+msgstr "Conectat cu succes!"
 
 #: templates/admin-connect.php:64
 msgid "Connected!"
-msgstr ""
+msgstr "Conectat!"
 
 #: templates/admin-connect.php:54
 msgid "Connecting..."
-msgstr ""
+msgstr "Se conectează..."
 
 #: templates/admin-settings.php:26
 msgid "Connection"
-msgstr ""
+msgstr "Conexiune"
 
 #: templates/admin-dashboard.php:77
 msgid "Consent Overview"
-msgstr ""
+msgstr "Prezentare generală a consimțământului"
 
 #: templates/admin-dashboard.php:40
 msgid "Consents Today"
-msgstr ""
+msgstr "Consimțăminte astăzi"
 
 #: templates/admin-banner-design.php:120
 msgid "Cookie"
-msgstr ""
+msgstr "Cookie"
 
 #: templates/admin-dashboard.php:104
 msgid "Cookie Scan"
-msgstr ""
+msgstr "Scanare cookie-uri"
 
 #: includes/class-kukie-admin.php:689
 msgid "Cookie scan started!"
-msgstr ""
+msgstr "Scanarea cookie-urilor a fost inițiată!"
 
 #: templates/admin-dashboard.php:128
 msgid "Cookies Found"
-msgstr ""
+msgstr "Cookie-uri găsite"
 
 #: includes/class-kukie-admin.php:371
 msgid "Could not connect. Please check your API key."
-msgstr ""
+msgstr "Conectarea nu a reușit. Vă rugăm să verificați cheia API."
 
 #: includes/class-kukie-admin.php:682
 msgid "Could not start scan."
-msgstr ""
+msgstr "Scanarea nu a putut fi pornită."
 
 #: templates/admin-banner-design.php:228
 msgid "Customise"
-msgstr ""
+msgstr "Personalizare"
 
 #: templates/admin-dashboard.php:141
 msgid "Customise Your Banner"
-msgstr ""
+msgstr "Personalizați bannerul dumneavoastră"
 
 #: includes/class-kukie-admin.php:72
 #: includes/class-kukie-admin.php:73
 #: includes/class-kukie-plugin.php:104
 msgid "Dashboard"
-msgstr ""
+msgstr "Panou de control"
 
 #: templates/admin-gcm.php:46
 msgid "Default Consent State"
-msgstr ""
+msgstr "Starea implicită a consimțământului"
 
 #: templates/admin-settings.php:136
 msgid "Default Language"
-msgstr ""
+msgstr "Limba implicită"
 
 #: templates/admin-gcm.php:55
 msgid "Default State"
-msgstr ""
+msgstr "Stare implicită"
 
 #: templates/admin-gcm.php:62
 #: templates/admin-gcm.php:67
 #: templates/admin-gcm.php:72
 msgid "Denied"
-msgstr ""
+msgstr "Refuzat"
 
 #: templates/admin-dashboard.php:142
 msgid "Design your cookie banner, manage cookie categories, and configure consent rules in the Kukie.io dashboard."
-msgstr ""
+msgstr "Proiectați bannerul cookie-urilor, gestionați categoriile de cookie-uri și configurați regulile de consimțământ în panoul de control Kukie.io."
 
 #: templates/admin-settings.php:55
 msgid "Disconnect from Kukie.io"
-msgstr ""
+msgstr "Deconectare de la Kukie.io"
 
 #: includes/class-kukie-admin.php:420
 msgid "Disconnected from Kukie.io."
-msgstr ""
+msgstr "Deconectat de la Kukie.io."
 
 #: includes/class-kukie-admin.php:303
 msgid "Dismiss"
-msgstr ""
+msgstr "Închide"
 
 #: templates/admin-connect.php:75
 #: templates/admin-settings.php:44
 msgid "Domain"
-msgstr ""
+msgstr "Domeniu"
 
 #: templates/admin-connect.php:88
 msgid "Don't have an account? %s"
-msgstr ""
+msgstr "Nu aveți un cont? %s"
 
 #: templates/admin-settings.php:100
 msgid "Embed Code"
-msgstr ""
+msgstr "Cod de integrare"
 
 #: templates/admin-settings.php:93
 msgid "Embed code"
-msgstr ""
+msgstr "Cod de integrare"
 
 #: templates/admin-gcm.php:35
 msgid "Enable GCM v2"
-msgstr ""
+msgstr "Activare GCM v2"
 
 #: templates/admin-gcm.php:30
 msgid "Enable Google Consent Mode v2 to integrate consent signals with Google services. Required for EU user consent compliance with Google Ads and Analytics."
-msgstr ""
+msgstr "Activați Google Consent Mode v2 pentru a integra semnalele de consimțământ cu serviciile Google. Necesar pentru conformitatea consimțământului utilizatorilor din UE cu Google Ads și Analytics."
 
 #: templates/admin-uet.php:34
 msgid "Enable Microsoft UET consent signals"
-msgstr ""
+msgstr "Activare semnale de consimțământ Microsoft UET"
 
 #: templates/admin-settings.php:144
 msgid "Enabled Languages"
-msgstr ""
+msgstr "Limbi activate"
 
 #: templates/admin-connect.php:41
 msgid "Find your API key in %s under your site settings."
-msgstr ""
+msgstr "Găsiți cheia API în %s, în setările site-ului dumneavoastră."
 
 #: templates/admin-banner-design.php:123
 msgid "Fingerprint"
-msgstr ""
+msgstr "Amprentă"
 
 #: templates/admin-banner-design.php:59
 msgid "Floating"
-msgstr ""
+msgstr "Flotant"
 
 #: templates/admin-gcm.php:11
 #: templates/admin-uet.php:11
 msgid "Full settings"
-msgstr ""
+msgstr "Setări complete"
 
 #: templates/admin-banner-design.php:46
 msgid "Full-width bar at bottom"
-msgstr ""
+msgstr "Bară cu lățime completă în partea de jos"
 
 #: templates/admin-banner-design.php:53
 msgid "Full-width bar at top"
-msgstr ""
+msgstr "Bară cu lățime completă în partea de sus"
 
 #: templates/admin-gcm.php:71
 msgid "Functional (functionality_storage)"
-msgstr ""
+msgstr "Funcțional (functionality_storage)"
 
 #: templates/admin-connect.php:80
 msgid "Go to Dashboard"
-msgstr ""
+msgstr "Mergeți la panoul de control"
 
 #: includes/class-kukie-admin.php:558
 msgid "Google Consent Mode settings saved."
-msgstr ""
+msgstr "Setările Google Consent Mode au fost salvate."
 
 #: includes/class-kukie-admin.php:90
 #: includes/class-kukie-admin.php:91
 #: templates/admin-gcm.php:9
 #: templates/admin-gcm.php:28
 msgid "Google Consent Mode v2"
-msgstr ""
+msgstr "Google Consent Mode v2"
 
 #: templates/admin-gcm.php:77
 msgid "Granted"
-msgstr ""
+msgstr "Acordat"
 
 #: templates/admin-banner-design.php:118
 msgid "Icon"
-msgstr ""
+msgstr "Pictogramă"
 
 #: templates/admin-banner-design.php:139
 msgid "Icon Color"
-msgstr ""
+msgstr "Culoare pictogramă"
 
 #: templates/admin-banner-design.php:112
 msgid "Icon Only"
-msgstr ""
+msgstr "Doar pictogramă"
 
 #: includes/class-kukie-admin.php:364
 msgid "Invalid API key format. The key should be 64 characters."
-msgstr ""
+msgstr "Format de cheie API nevalid. Cheia trebuie să aibă 64 de caractere."
 
 #: includes/class-kukie-admin.php:48
 #: includes/class-kukie-admin.php:49
@@ -350,75 +352,75 @@ msgstr ""
 #: templates/admin-connect.php:8
 #: templates/admin-connect.php:13
 msgid "Kukie.io"
-msgstr ""
+msgstr "Kukie.io"
 
 #: includes/class-kukie-admin.php:296
 msgid "Kukie.io - WP Rocket detected:"
-msgstr ""
+msgstr "Kukie.io - WP Rocket detectat:"
 
 #: templates/admin-dashboard.php:11
 msgid "Kukie.io Dashboard"
-msgstr ""
+msgstr "Panou de control Kukie.io"
 
 #: templates/admin-settings.php:11
 msgid "Kukie.io Settings"
-msgstr ""
+msgstr "Setări Kukie.io"
 
 #: includes/class-kukie-admin.php:189
 msgid "Kukie.io cookie consent is not connected."
-msgstr ""
+msgstr "Consimțământul pentru cookie-uri Kukie.io nu este conectat."
 
 #: templates/admin-settings.php:121
 msgid "Language"
-msgstr ""
+msgstr "Limbă"
 
 #: templates/admin-dashboard.php:124
 msgid "Last Scan"
-msgstr ""
+msgstr "Ultima scanare"
 
 #: templates/admin-banner-design.php:33
 msgid "Layout"
-msgstr ""
+msgstr "Aspect"
 
 #: includes/class-kukie-admin.php:302
 msgid "Learn more"
-msgstr ""
+msgstr "Aflați mai multe"
 
 #: templates/admin-banner-design.php:183
 msgid "Live Preview"
-msgstr ""
+msgstr "Previzualizare în timp real"
 
 #: templates/admin-banner-design.php:24
 msgid "Loading design settings..."
-msgstr ""
+msgstr "Se încarcă setările de design..."
 
 #: templates/admin-gcm.php:22
 #: templates/admin-settings.php:20
 #: templates/admin-uet.php:22
 msgid "Loading settings..."
-msgstr ""
+msgstr "Se încarcă setările..."
 
 #: templates/admin-settings.php:92
 msgid "Manual"
-msgstr ""
+msgstr "Manual"
 
 #: includes/class-kukie-admin.php:99
 #: includes/class-kukie-admin.php:100
 #: templates/admin-uet.php:9
 msgid "Microsoft UET"
-msgstr ""
+msgstr "Microsoft UET"
 
 #: templates/admin-uet.php:27
 msgid "Microsoft UET Consent Signals"
-msgstr ""
+msgstr "Semnale de consimțământ Microsoft UET"
 
 #: includes/class-kukie-admin.php:588
 msgid "Microsoft UET settings saved."
-msgstr ""
+msgstr "Setările Microsoft UET au fost salvate."
 
 #: templates/admin-gcm.php:76
 msgid "Necessary (security_storage)"
-msgstr ""
+msgstr "Necesare (security_storage)"
 
 #: includes/class-kukie-admin.php:439
 #: includes/class-kukie-admin.php:468
@@ -429,195 +431,195 @@ msgstr ""
 #: includes/class-kukie-admin.php:674
 #: includes/class-kukie-admin.php:701
 msgid "Not connected."
-msgstr ""
+msgstr "Neconectat."
 
 #: templates/admin-banner-design.php:153
 msgid "Offset X (px)"
-msgstr ""
+msgstr "Deplasare X (px)"
 
 #: templates/admin-banner-design.php:157
 msgid "Offset Y (px)"
-msgstr ""
+msgstr "Deplasare Y (px)"
 
 #: templates/admin-dashboard.php:144
 msgid "Open Kukie.io Dashboard"
-msgstr ""
+msgstr "Deschideți panoul de control Kukie.io"
 
 #: includes/class-kukie-admin.php:300
 msgid "Open WP Rocket Settings"
-msgstr ""
+msgstr "Deschideți setările WP Rocket"
 
 #: templates/admin-dashboard.php:13
 msgid "Open full dashboard"
-msgstr ""
+msgstr "Deschideți panoul de control complet"
 
 #: templates/admin-connect.php:67
 #: templates/admin-settings.php:36
 msgid "Organisation"
-msgstr ""
+msgstr "Organizație"
 
 #: templates/admin-dashboard.php:132
 msgid "Pages Scanned"
-msgstr ""
+msgstr "Pagini scanate"
 
 #: templates/admin-uet.php:35
 msgid "Pass consent signals to Microsoft Advertising Universal Event Tracking."
-msgstr ""
+msgstr "Transmiteți semnalele de consimțământ către Microsoft Advertising Universal Event Tracking."
 
 #: templates/admin-uet.php:29
 msgid "Pass consent signals to Microsoft Advertising Universal Event Tracking. When enabled, consent state is forwarded to Microsoft UET tags for GDPR compliance."
-msgstr ""
+msgstr "Transmiteți semnalele de consimțământ către Microsoft Advertising Universal Event Tracking. Când este activat, starea consimțământului este transmisă etichetelor Microsoft UET pentru conformitatea GDPR."
 
 #: templates/admin-connect.php:29
 msgid "Paste your 64-character API key"
-msgstr ""
+msgstr "Inserați cheia API de 64 de caractere"
 
 #: templates/admin-banner-design.php:113
 msgid "Pill (Icon + Text)"
-msgstr ""
+msgstr "Pastilă (Pictogramă + Text)"
 
 #: templates/admin-connect.php:71
 #: templates/admin-dashboard.php:52
 #: templates/admin-settings.php:40
 msgid "Plan"
-msgstr ""
+msgstr "Plan"
 
 #: templates/admin-banner-design.php:38
 msgid "Popup (Center)"
-msgstr ""
+msgstr "Fereastră popup (Centru)"
 
 #: templates/admin-banner-design.php:68
 #: templates/admin-banner-design.php:101
 msgid "Position"
-msgstr ""
+msgstr "Poziție"
 
 #: templates/admin-settings.php:79
 msgid "Recommended"
-msgstr ""
+msgstr "Recomandat"
 
 #: templates/admin-gcm.php:56
 msgid "Region"
-msgstr ""
+msgstr "Regiune"
 
 #: templates/admin-banner-design.php:229
 msgid "Reject All"
-msgstr ""
+msgstr "Respingeți toate"
 
 #: templates/admin-banner-design.php:92
 msgid "Revisit Button"
-msgstr ""
+msgstr "Buton de revenire"
 
 #: templates/admin-dashboard.php:111
 msgid "Run New Scan"
-msgstr ""
+msgstr "Rulați o scanare nouă"
 
 #: templates/admin-banner-design.php:13
 msgid "Save Changes"
-msgstr ""
+msgstr "Salvați modificările"
 
 #: templates/admin-gcm.php:103
 #: templates/admin-settings.php:170
 #: templates/admin-uet.php:47
 msgid "Save Settings"
-msgstr ""
+msgstr "Salvați setările"
 
 #: templates/admin-banner-design.php:16
 #: templates/admin-gcm.php:106
 #: templates/admin-settings.php:173
 #: templates/admin-uet.php:50
 msgid "Saving..."
-msgstr ""
+msgstr "Se salvează..."
 
 #: templates/admin-gcm.php:86
 msgid "Script Blocking"
-msgstr ""
+msgstr "Blocare scripturi"
 
 #: templates/admin-settings.php:73
 msgid "Script Position"
-msgstr ""
+msgstr "Poziția scriptului"
 
 #: templates/admin-settings.php:145
 msgid "Select which languages are available for your cookie banner."
-msgstr ""
+msgstr "Selectați limbile disponibile pentru bannerul de cookie-uri."
 
 #: includes/class-kukie-admin.php:108
 #: includes/class-kukie-admin.php:109
 #: templates/admin-banner-design.php:122
 msgid "Settings"
-msgstr ""
+msgstr "Setări"
 
 #: includes/class-kukie-admin.php:527
 msgid "Settings saved."
-msgstr ""
+msgstr "Setările au fost salvate."
 
 #: templates/admin-banner-design.php:121
 msgid "Shield"
-msgstr ""
+msgstr "Scut"
 
 #: templates/admin-connect.php:33
 msgid "Show/hide API key"
-msgstr ""
+msgstr "Afișare/ascundere cheie API"
 
 #: templates/admin-connect.php:89
 msgid "Sign up free at kukie.io"
-msgstr ""
+msgstr "Înregistrați-vă gratuit pe kukie.io"
 
 #: templates/admin-settings.php:48
 msgid "Site Key"
-msgstr ""
+msgstr "Cheie de site"
 
 #: templates/admin-banner-design.php:60
 msgid "Small floating card"
-msgstr ""
+msgstr "Card flotant mic"
 
 #: templates/admin-dashboard.php:120
 #: templates/admin-settings.php:29
 msgid "Status"
-msgstr ""
+msgstr "Stare"
 
 #: templates/admin-banner-design.php:110
 msgid "Style"
-msgstr ""
+msgstr "Stil"
 
 #: templates/admin-banner-design.php:114
 msgid "Tab (Text)"
-msgstr ""
+msgstr "Filă (Text)"
 
 #: templates/admin-settings.php:140
 msgid "The fallback language when auto-translate cannot determine the visitor language."
-msgstr ""
+msgstr "Limba implicită atunci când traducerea automată nu poate determina limba vizitatorului."
 
 #: templates/admin-gcm.php:48
 msgid "These are the default consent states before a user interacts with the banner. Managed through region rules in the Kukie.io dashboard."
-msgstr ""
+msgstr "Acestea sunt stările implicite ale consimțământului înainte ca un utilizator să interacționeze cu bannerul. Gestionate prin regulile regionale din panoul de control Kukie.io."
 
 #: templates/admin-dashboard.php:95
 msgid "This Month"
-msgstr ""
+msgstr "Luna aceasta"
 
 #: templates/admin-dashboard.php:91
 msgid "This Week"
-msgstr ""
+msgstr "Săptămâna aceasta"
 
 #: templates/admin-settings.php:57
 msgid "This will remove the cookie consent banner from your site."
-msgstr ""
+msgstr "Aceasta va elimina bannerul de consimțământ pentru cookie-uri de pe site-ul dumneavoastră."
 
 #: templates/admin-dashboard.php:85
 msgid "Today"
-msgstr ""
+msgstr "Astăzi"
 
 #: templates/admin-banner-design.php:52
 msgid "Top Bar"
-msgstr ""
+msgstr "Bară de sus"
 
 #: templates/admin-banner-design.php:105
 msgid "Top Left"
-msgstr ""
+msgstr "Sus stânga"
 
 #: templates/admin-banner-design.php:106
 msgid "Top Right"
-msgstr ""
+msgstr "Sus dreapta"
 
 #: includes/class-kukie-admin.php:356
 #: includes/class-kukie-admin.php:407
@@ -630,57 +632,57 @@ msgstr ""
 #: includes/class-kukie-admin.php:669
 #: includes/class-kukie-admin.php:696
 msgid "Unauthorised."
-msgstr ""
+msgstr "Neautorizat."
 
 #: templates/admin-banner-design.php:238
 msgid "Updates instantly as you change settings"
-msgstr ""
+msgstr "Se actualizează instantaneu pe măsură ce modificați setările"
 
 #: templates/admin-dashboard.php:64
 #: templates/admin-settings.php:107
 msgid "Verification"
-msgstr ""
+msgstr "Verificare"
 
 #: includes/class-kukie-admin.php:707
 msgid "Verification failed."
-msgstr ""
+msgstr "Verificarea a eșuat."
 
 #: templates/admin-settings.php:111
 msgid "Verify"
-msgstr ""
+msgstr "Verificare"
 
 #: templates/admin-dashboard.php:79
 msgid "View analytics"
-msgstr ""
+msgstr "Vizualizați analitica"
 
 #: templates/admin-dashboard.php:107
 msgid "View cookies"
-msgstr ""
+msgstr "Vizualizați cookie-urile"
 
 #: templates/admin-banner-design.php:171
 msgid "Want more customisation options? Edit colours, texts and advanced settings in %s."
-msgstr ""
+msgstr "Doriți mai multe opțiuni de personalizare? Editați culorile, textele și setările avansate în %s."
 
 #: templates/admin-settings.php:157
 msgid "Want to customise banner texts and translations? Edit them in %s."
-msgstr ""
+msgstr "Doriți să personalizați textele și traducerile bannerului? Editați-le în %s."
 
 #: templates/admin-banner-design.php:226
 msgid "We use cookies to enhance your browsing experience, serve personalised content, and analyse our traffic."
-msgstr ""
+msgstr "Utilizăm cookie-uri pentru a îmbunătăți experiența dumneavoastră de navigare, a furniza conținut personalizat și a analiza traficul nostru."
 
 #: templates/admin-banner-design.php:224
 msgid "We value your privacy"
-msgstr ""
+msgstr "Respectăm confidențialitatea dumneavoastră"
 
 #: includes/class-kukie-admin.php:297
 msgid "Your cookie banner may not load correctly. Add cdn.kukie.io to the exclusion list in these WP Rocket settings:"
-msgstr ""
+msgstr "Bannerul de cookie-uri ar putea să nu se încarce corect. Adăugați cdn.kukie.io în lista de excluderi din aceste setări WP Rocket:"
 
 #: templates/admin-banner-design.php:172
 msgid "your Kukie.io dashboard"
-msgstr ""
+msgstr "panoul de control Kukie.io"
 
 #: templates/admin-settings.php:158
 msgid "your banner settings on Kukie.io"
-msgstr ""
+msgstr "setările bannerului pe Kukie.io"

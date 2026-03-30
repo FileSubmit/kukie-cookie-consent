@@ -1,10 +1,10 @@
-=== Kukie - Cookie Banner and Consent Management (GDPR, CCPA, DSVGO, CNIL, LGPD, PIPEDA and more) ===
+=== Kukie - Cookie Banner and Consent Management (GDPR, CCPA, DSVGO, CNIL, PIPEDA) ===
 Contributors: kukieio, filesubmit
 Tags: cookie consent, gdpr, ccpa, privacy, cookie banner
 Requires at least: 6.0
 Tested up to: 6.9
 Requires PHP: 8.1
-Stable tag: 1.3.4
+Stable tag: 1.4.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -237,6 +237,10 @@ Yes. Kukie.io supports multi-site management with team roles (owner, admin, edit
 8. Revisit consent button settings - position, style, icon, and colour customisation
 
 == Changelog ==
+
+= 1.4.0 =
+* Added translations for 11 languages: Bulgarian, German, French, Spanish, Italian, Portuguese (Brazil), Dutch, Polish, Romanian, Turkish, Japanese
+* Improved internationalization coverage for all plugin strings
 
 = 1.3.4 =
 * Fixed WP Consent API bridge: enqueue after WP Consent API script (PHP_INT_MAX - 50 priority)
